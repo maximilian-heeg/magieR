@@ -12,7 +12,16 @@ LazyData: true
 RoxygenNote: 7.1.1
 Suggests: 
     knitr,
-    rmarkdown
+    rmarkdown,
+    scater,
+    ggplot2,
+    Rtsne
 VignetteBuilder: knitr
 Depends: 
     R (>= 2.10)
+Imports: 
+    SingleCellExperiment,
+    basilisk,
+    Seurat,
+    Matrix,
+    reticulate
