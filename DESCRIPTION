@@ -1,0 +1,18 @@
+Package: magieR
+Type: Package
+Title: Run `magic-impute` on scRNA Seq dataset in R
+Version: 0.1.0
+Author: Authors@R: person("Heeg", "Maximilian", email = "mheeg@ucsd.edu",
+  role = c("aut", "cre"))
+Description: This is a wrapper to run `magic` on scRNA datasets in R. The package uses `basilisk` to create a package
+    specific python environment in which `magic-impute` is executed.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+Depends: 
+    R (>= 2.10)
