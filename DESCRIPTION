@@ -25,6 +25,4 @@ Imports:
     Seurat,
     Matrix,
     reticulate
-Remotes:
-    bioc::SingleCellExperiment,
-    bioc::basilisk
+biocViews: SingleCell, GeneExpression, Sequencing, Coverage
