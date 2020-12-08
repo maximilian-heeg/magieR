@@ -27,3 +27,4 @@ Imports:
     Seurat,
     Matrix,
     reticulate
+biocViews: SingleCell, GeneExpression, Sequencing, Coverage
