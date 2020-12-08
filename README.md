@@ -11,7 +11,7 @@ _magieR_ can be easily installed from [Github](https://github.com/maximilian-hee
 ```r
 if (!requireNamespace("devtools", quietly = TRUE))
     install.packages("devtools")
-devtools::install("https://github.com/maximilian-heeg/magieR")
+devtools::install_github("maximilian-heeg/magieR")
 
 ```
 
