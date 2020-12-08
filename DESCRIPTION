@@ -25,3 +25,6 @@ Imports:
     Seurat,
     Matrix,
     reticulate
+Remotes:
+    bioc::SingleCellExperiment,
+    bioc::basilisk
