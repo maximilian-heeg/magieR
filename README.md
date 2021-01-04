@@ -2,7 +2,8 @@
 
 # magieR
 
-An easy to use wrapper to run `magic` in scRNA-Seq datasets in R.
+An easy to use wrapper to run `magic` in scRNA-Seq datasets in R. For further information on `magic` see https://www.krishnaswamylab.org/projects/magic
+
 
 ## Installation
 
@@ -15,3 +16,4 @@ devtools::install_github("maximilian-heeg/magieR")
 
 ```
 
+See the vignette on how to use the wrapper with `Seurat` and `SingleCellExperiment` objects.
