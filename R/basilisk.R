@@ -1,4 +1,6 @@
 .magieR_dependencies <- c(
+  "numpy",
+  "pandas"
 )
 
 
