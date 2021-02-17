@@ -1,6 +1,6 @@
 .magieR_dependencies <- c(
-  "numpy",
-  "pandas"
+ "numpy==1.19.2",
+ "pandas==1.2.0"
 )
 
 
