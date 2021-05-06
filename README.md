@@ -16,6 +16,14 @@ devtools::install_github("maximilian-heeg/magieR")
 
 ```
 
-*Note*: Most recently, I needed to install the newest version of `reticulate` from git. Otherwise I got a lot of segfaults. Also, make sure that the libopenblas from R and in the python environment match.
+*Note*: Most recently, I needed to install the newest version of `reticulate` from git. Otherwise I got a lot of segfaults. Also, make sure that the libopenblas from R and in the python environment match. I needed to run the following commands in the basilisk conda environment `.cache/basilisk/1.2.0/magieR-0.1.0/env`:
+
+```bash
+conda install nomkl numpy scipy scikit-learn numexpr
+conda remove mkl mkl-service
+conda install libopenblas=0.3.15 -c conda-forge
+```
+
+
 
 See the vignette on how to use the wrapper with `Seurat` and `SingleCellExperiment` objects.
