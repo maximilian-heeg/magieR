@@ -16,15 +16,14 @@ Suggests:
     rmarkdown,
     scater,
     ggplot2,
-    Rtsne
+    Rtsne,
+    BiocGenerics,
+    SingleCellExperiment,
+    Seurat,
 VignetteBuilder: knitr
 Depends: 
     R (>= 2.10)
 Imports: 
-    BiocGenerics,
-    SingleCellExperiment,
     basilisk,
-    Seurat,
-    Matrix,
-    reticulate
+    Matrix
 biocViews: SingleCell, GeneExpression, Sequencing, Coverage
