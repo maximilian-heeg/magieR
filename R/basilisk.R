@@ -1,5 +1,5 @@
 .magieR_dependencies <- c(
-  "magic-impute"
+  "magic-impute==3.0.0"
 )
 
 
