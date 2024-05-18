@@ -2,11 +2,6 @@
 
 export(magieR)
 exportMethods(magieR)
-import(SingleCellExperiment)
-import(SummarizedExperiment)
 import(basilisk)
 importFrom(Matrix,t)
-importFrom(Seurat,CreateAssayObject)
-importFrom(Seurat,GetAssayData)
-importFrom(Seurat,Key)
 importFrom(reticulate,import)
